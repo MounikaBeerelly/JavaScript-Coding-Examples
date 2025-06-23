@@ -80,3 +80,12 @@ function firstUniqueChar(str) {
 }
 
 console.log(firstUniqueChar('madam'));
+
+// Count character occurrences
+function charFrequency(str) {
+  return str.split('').reduce((freq, char) => {
+    freq[char] = (freq[char] || 0) + 1;
+    return freq;
+  }, {});
+}
+console.log(charFrequency('banana')); // { b:1, a:3, n:2 }

@@ -18,6 +18,10 @@
 3. Count occurances of characters in a string
 4. Check if two strings are Anagrams
 5. Count the number of vowels
+6. remove duplicates from string
+7. Count character occurrences
+8. Capitalize word
+9. String compression
 
 ## Other
 1. FizzBuzz

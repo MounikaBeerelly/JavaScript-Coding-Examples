@@ -18,3 +18,10 @@ function VowelCount(str) {
     return match ? match.length : 0;
 }
 console.log(VowelCount('Avyay Reddy'));
+
+//remove duplicates from string
+function removeDuplicates(str) {
+  return [...new Set(str)].join('');
+}
+console.log(removeDuplicates('programming')); // 'progamin'
+
