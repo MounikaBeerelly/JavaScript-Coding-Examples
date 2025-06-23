@@ -7,7 +7,8 @@
 4. Reverse an array
 5. Return an array of elements that appear in both arrays.
 6. Write a function that returns the sum of all numbers in the array.
-
+7. Combine two arrays
+8. Check if two arrays are equal
 
 ## String Examples
 1. Reverses a String

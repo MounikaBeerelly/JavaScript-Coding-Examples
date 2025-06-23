@@ -27,3 +27,19 @@ function RemoveDup(arr) {
 }
 
 console.log(RemoveDup([2,6,2,5,6,7,1,2,4]));
+
+// Combine two arrays
+
+const arr1 = [2,4,5,6,3];
+const arr2 = [1,6,3,5,9];
+console.log(arr1.concat(arr2));
+console.log([...arr1, ...arr2]);
+arr1.push(...arr2);
+console.log(arr1);
+
+// Check if two arrays are equal
+const array1 = [1,2,3,4,5];
+const array2 = [1,2,3,4,5];
+
+console.log(JSON.stringify(array1) === JSON.stringify(array2));
+console.log(array1 === array2);
