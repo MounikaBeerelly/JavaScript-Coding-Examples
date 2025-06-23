@@ -43,3 +43,13 @@ const array2 = [1,2,3,4,5];
 
 console.log(JSON.stringify(array1) === JSON.stringify(array2));
 console.log(array1 === array2);
+
+// Move all zeros to the end of the array
+
+const arr = [2,0,4,5,1,0,0,43,7,9,0,21];
+const zeros = arr.filter(x => x === 0);
+const nonZeros = arr.filter(x => x !== 0);
+
+console.log(zeros);
+console.log(nonZeros);
+console.log([...nonZeros, ...zeros]);

@@ -9,12 +9,15 @@
 6. Write a function that returns the sum of all numbers in the array.
 7. Combine two arrays
 8. Check if two arrays are equal
+9. Move all zeros to the end of the array
+10. Count the frequency of elements in an array
 
 ## String Examples
 1. Reverses a String
 2. Check for Palindrome
 3. Count occurances of characters in a string
 4. Check if two strings are Anagrams
+5. Count the number of vowels
 
 ## Other
 1. FizzBuzz
