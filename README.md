@@ -11,6 +11,8 @@
 8. Check if two arrays are equal
 9. Move all zeros to the end of the array
 10. Count the frequency of elements in an array
+11. Find a value 10 in an array. 
+    `array = [1, [2, 3, [4, 5, [6, 7]]], [8, 9, [10]]];`
 
 ## String Examples
 1. Reverses a String
